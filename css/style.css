@@ -1,0 +1,190 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+body{
+	color:rgb(37, 150, 190); margin:0; font-family: "Poppins", sans-serif; font-size: 16px
+}
+header{
+	width: 100%; height: 80px; background-color:#6DA01D ; border-bottom: 1px solid #FFFFFF; position: relative
+}
+
+.logo{padding-top: 5px}
+.ml-15{
+	margin-left: 15px
+}
+.icon1{
+	margin: 0; padding: 30px; list-style: none;
+}
+.icon1 i{
+	padding:0px 8px; text-decoration: none; font-size: 17px; color: #FFFFFF; 
+}
+.icon1 i:hover{
+	color:#468010
+}
+.top-bar{
+	height: 85px; width: 100%; color: #FFFFFF; border-bottom: 1px solid #FFFFFF; line-height: 60px; position: absolute; left: 0; top:0;z-index: 10}
+.menu{
+	padding-top: 34px
+}
+.menu ul{
+	margin: 0; padding: 0; list-style: none; display: flex
+}
+.menu ul li a{
+	padding:35px 39px; text-decoration: none; font-size: 16px; color:#FFFFFF
+}
+.menu ul li a:hover{
+	color:#468010
+}
+.menu ul li {
+	position: relative
+}
+.menu ul li .dropdown{
+	position:absolute; padding:0; margin: 0; font-size: 13px; list-style: none;display: flex;flex-direction: column; width: 230px; left:0; top: 100%;  background-color:#6ABF19; display: none; box-shadow: 5px 4px 4px #468010
+}
+.menu ul li .dropdown li a{
+	display: block
+}
+.menu ul li .dropdown li{
+	border-bottom: 1px dotted white
+}
+.menu ul li .dropdown li:hover{
+	color: aqua
+}
+.menu ul li:hover .dropdown{
+	display: block
+}
+.pt-30{padding-top: 1px}
+
+.gach-chan{border-bottom: 2px solid  }
+.banner{padding-top: 30px}
+
+.vien{
+	border: 1px solid #468010; padding: 10px; border-radius: 10px; position: relative; overflow: hidden
+}
+.w-70{
+	width: 70%;min-height: 400px; padding:15px; float: right
+}
+.w-70 ul{
+	margin:0;padding:0; list-style: none; display:flex; flex-direction: column
+}
+.w-70 ul li a{
+	padding: 10px; display:block; text-decoration: none
+}
+.w-70 ul li{
+	border-bottom: 1px solid #B9B9B9
+}
+.w-30{
+	width: 30%; min-height: 400px; padding:15px; float: left
+}
+.text-trang{color: #FFFFFF}
+.text-xanh{color: #468010}
+.text-do{color: #6A0001}
+.icon{
+	position: absolute; padding: 10px; width: 75%; height: 45px; left: 12%; top: -50%; display: flex; justify-content: space-around; transition: all 1s
+}
+.icon a{
+	width: 45px; height: 45px; background-color: #468010; border-radius: 50%; display: flex; justify-content: center; align-items: center; text-decoration: none; color: #FFFFFF
+}
+.icon a:hover{
+	background-color: #FFFCFC; color: #468010
+}
+.vien:hover .icon{
+	top: 130px
+}
+/* Style the search box inside the navigation bar */
+
+#slider .owl-dots{ position:absolute; bottom: 10px; left:35%;}
+#slider .owl-dots .owl-dot span {
+      width: 0px;
+      height: 0px; 	
+}
+
+#slider .owl-nav { position:absolute; left:0px; top:40%; width:100%; }
+#slider .owl-nav [class*='owl-'] {
+	font-size:60px; /*background:rgba(255,255,255,.5);border:1px solid #fff; */ color: #fff
+}
+
+#slider .owl-nav .owl-next{ position:absolute; right:5%;}
+#slider .owl-nav .owl-prev{ position:absolute; left:5%;}
+#slider .owl-nav [class*='owl-']:hover {
+      background:none;border: none;
+      color:yellow;
+      text-decoration: none; }
+footer{
+	width: 100%; min-height: 300px; background-color:#6DA01D
+}
+.p-15{
+	padding: 1px;
+}
+footer h3{
+	text-decoration: none; color:white}
+footer p{
+	text-decoration: none; color:white; font-size: 12
+}
+footer p:hover{
+	color:#468010
+}
+.video{
+	width: 100%; min-height: 500px ; left: 0; top: 0; z-index: 500px}
+.cover{
+	width: 100%; height: 55;background-color: rgba(41,41,41,0.3); position: absolute; left: 0; top:0;
+}
+
+.caption{
+	width:40%; text-align: center; position: absolute; left:30%; top: 55%
+}
+.caption h1{ 
+	font-size: 40px;
+}
+.caption p{
+	color: white; font-size: 20px;
+}
+#feature{width: 100%; min-height: 600px; background-image: url("../image/2.jpg"); background-repeat: no-repeat; background-size: cover; background-position: center center}
+.vien2{padding: 30px}
+.vien2 h4 a{
+	padding-top: 90px; border: 1px solid #468010; color:#468010; padding: 10px 20px; border-radius: 10px; position: relative; overflow: hidden; text-decoration: none
+}
+.vien2 h4 a:hover{
+	 background-color: #468010; color: #FFFFFF
+}
+.text p a {color:#000000}
+.text p a:hover{color:#468010}
+.text-den{color: #000000}
+footer{
+	width: 100%; min-height: 300px; background-color:#6DA01D
+}
+.p-15{
+	padding: 1px;
+}
+footer h3{
+	text-decoration: none; color:white}
+footer p{
+	text-decoration: none; color:white; font-size: 12
+}
+footer p:hover{
+	color:#468010
+}
+.slid{z-index:2}
+
+#slider .owl-dots{ position:absolute; bottom: 10px; left:47%;}
+#slider .owl-dots .owl-dot span {
+      width: 8px;
+      height: 8px; 	
+}
+
+#slider .owl-nav { position:absolute; left:0px; top:40%; width:100%; }
+#slider .owl-nav [class*='owl-'] {
+	font-size:60px; /*background:rgba(255,255,255,.5);border:1px solid #fff; */ color: #fff
+}
+
+#slider .owl-nav .owl-next{ position:absolute; right:5%;}
+#slider .owl-nav .owl-prev{ position:absolute; left:5%;}
+#slider .owl-nav [class*='owl-']:hover {
+      background:none;border: none;
+      color:yellow;
+      text-decoration: none; }
